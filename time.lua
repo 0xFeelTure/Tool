@@ -1,0 +1,2 @@
+local v = os.date("*t")
+function GetTime() if v.month == 1 then m = "January" elseif v.month == 2 then m = "February"  elseif v.month == 3 then m = "March" elseif v.month == 4 then m = "April" elseif v.month == 5 then m = "May" elseif v.month == 6 then m = "June" elseif v.month == 7 then m = "July" elseif v.month == 8 then onthz = 'August' elseif v.month == 9 then m = "September" elseif v.month == 10 then m = "October"  elseif v.month == 11 then m = "November" elseif v.month == 12 then m = "December" end end GetTime()  d = v.day y = v.year
